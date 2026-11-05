@@ -1,12 +1,10 @@
-import React from "react";
-
-function Hero() {
+const Hero = () => {
   return (
-    <div>
-      <h2>Welcome to My React App</h2>
-      <p>This is hero section</p>
-    </div>
+    <section className="hero">
+      <h1>Welcome to My React App</h1>
+      <p>This is my hero section.</p>
+    </section>
   );
-}
+};
 
 export default Hero;
